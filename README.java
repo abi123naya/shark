@@ -1,16 +1,16 @@
 # shark
 import.java.util.*;
-class OddEven 
+class VowelConso
 { public static void main(String[] args)
-  { int x;
+  { char x;
   Scanner s=new Scanner(System.in);
-  x=s.nextInt();
+  x=s.nextChar();
   }
 void dec()
-{ if(x%2==0)
-  {System.out.println("Even");}
-}
-else { System.out.println("Odd");}
+{ if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u')
+{System.out.println("Vowel"); }
+else
+{System.out.println("Consonent");} 
 
 
 }
